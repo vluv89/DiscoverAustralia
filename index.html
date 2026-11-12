@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Australia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Discover Australia</h1>
+    <p>Land of stunning landscapes, unique wildlife, and vibrant cities.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About Australia</h2>
+      <p>Australia is the world's sixth-largest country and the only nation to govern an entire continent. It is known for its diverse ecosystems, from tropical rainforests in the north to deserts in the interior and beautiful beaches along its vast coastline.</p>
+    </section>
+
+    <section class="card">
+      <h2>Quick Facts</h2>
+      <ul class="facts">
+        <li><strong>Capital:</strong> Canberra</li>
+        <li><strong>Largest City:</strong> Sydney</li>
+        <li><strong>Population:</strong> ~27 million</li>
+        <li><strong>Currency:</strong> Australian Dollar (AUD)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Famous Landmarks</h2>
+      <div class="landmarks">
+        <button class="landmark-btn" data-info="An iconic performing arts venue in Sydney, known for its sail-like design.">Sydney Opera House</button>
+        <button class="landmark-btn" data-info="The world's largest coral reef system, located off the coast of Queensland.">Great Barrier Reef</button>
+        <button class="landmark-btn" data-info="A massive sandstone monolith in the heart of the Northern Territory, sacred to the Anangu people.">Uluru</button>
+      </div>
+      <p id="landmark-info" class="info-box">Click a landmark to learn more.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Discover Australia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
